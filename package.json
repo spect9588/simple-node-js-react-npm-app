@@ -10,7 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test" : "react-scripts test --env=jsdom --ci=true",
+    "test" : "react-scripts test --env=jsdom",
+    "test:ci": "react-scripts test --no-watchman",
     "eject": "react-scripts eject"
   }
 }
